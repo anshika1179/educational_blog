@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+        body {border: 20px solid rgb(12, 2, 34);
+            background-color:rgba(238, 19, 92, 0.273);
+            background-image:url(background.jpg);
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: rgba(8, 3, 81, 0.541);
+            border: #031341;
+            color: rgb(241, 243, 208);
+            padding: 12px 16px;
+            max-width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar h1 {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .navbar ul {
+            list-style-type: none;
+            display: flex;
+            gap: 32px;
+            margin-left: auto; 
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .home-icon {
+            font-size: 2rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 24px auto;
+            padding: 0 16px;
+        }
+        .content-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #2d3748;
+            margin-bottom: 16px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 16px;
+        }
+        .card-content h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #2d3748;
+        }
+        .card-content p {
+            color: #4a5568;
+            margin: 8px 0;
+        }
+        .card-content a {
+            color: #1e3a8a;
+            text-decoration: none;
+        }
+        .card-content a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: rgba(8, 3, 81, 0.541); 
+            word-spacing: 10PX;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            margin-top: 40px;
+            
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Blog</h1>
+        <ul>
+            <li><a href="projectmain.html"><span class="home-icon">&#8962;</span>Home</a></li>
+        </ul>
+    </nav>
+    <div class="container mt-6" style="border: 5px solid rgba(3, 8, 48, 0.785);">
+        <h2 class="content-title" style="color: rgb(63, 15, 109);">Blog Thumbnails Collection</h2>
+        <div class="grid">
+            <div class="card" style="background-color: #ff9999;">
+                <div style="background-color: #ff9999; height: 200px;"><img src="thumbnail1.jpg" alt="image based on the same topic"></div>
+                <div class="card-content" style="background-color: #ff999967;">
+                    <h3>Early Childhood Education for Equitable Opportunity</h3>
+                    <p >Our work is built on the premise that early childhood 
+                        education equips girls with the ability to access 
+                        equitable opportunities later in life. Ensuring that
+                         both girls and boys build the brain connections 
+                         required to become curious learners and set the 
+                         groundwork for a resilient life is at the core of 
+                         our mission. Girls who receive high-quality early 
+                         childhood education do better in school and, in the 
+                         long run, can access better livelihood opportunities, 
+                         ensuring stability and success.</p>
+                    <a href="https://www.unicef.org/education/girls-education"style>......READ MORE</a>
+                </div>
+            </div>
+            <div class="card">
+                <div style="background-color: #99ccff; height: 200px;"><img src="thumbnail2.jpg" alt="image based on the same topic"></div>
+                <div class="card-content" style="background-color: #1579e544;">
+                    <h3>Shaping the Future of Online Learning</h3>
+                    <p>: At the beginning of the COVID-19 lockdown, there was a 
+                        massive escalation in demand for online learning. Demand 
+                        began to recede slowly as the months wore on and by late
+                        2022, it started to level out. But we observed two big changes:
+                        Internally, the demand for Harvard Online content was 
+                        still almost three times higher than pre-pandemic.
+                        Externally, in reaction to the demand surge, there was significant
+                         and rapid growth of new online course offerings and companies 
+                         that purveyed varying types of digital products. </p>
+                    <a href="https://www.harvardonline.harvard.edu/blog/shaping-future-online-learning">......READ MORE</a>
+                </div>
+            </div>
+            <div class="card" style="background-color: #99ffaf;">
+                <div style="background-color: #99ff99; height: 200px;"><img src="thumbnail.3.jpg" alt="image based on the same topic"</div>
+                <div class="card-content" style="background-color: #99ffaf67;">
+                    <h3>The History Of Education in India</h3>
+                    <p>the history of education in India is a captivating narrative 
+                        that reflects the nation's diverse cultural heritage and 
+                        unwavering thirst for knowledge. From ancient gurukuls to 
+                        modern digital classrooms, the evolution of education has 
+                        been shaped by various influences, challenges, and innovations. 
+                        As India strides forward, this rich history serves as a reminder 
+                        of the importance of education as a cornerstone for progress and growth</p>
+                    <a href="https://blog.teachmint.com/the-history-of-education-in-india/">......READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p> THANKYOU FOR VISITING THIS WEBSITE</p>
+        </div>
+    </footer>
+</body>
+</html>

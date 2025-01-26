@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Blog</title>
+    <style>
+        h1 {
+            border: 5px solid maroon;
+            background-color: rgba(239, 92, 92, 0.25);
+            text-align: center;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(background.jpg);
+        }
+        header {
+            border: 5px solid rgba(20, 20, 20, 0.25);
+            background-color: #aa0505;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .search-bar {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .search-bar input[type="text"] {
+            padding: 10px;
+            width: 60%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .search-bar button {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .gif-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .gif-container img {
+            width: 60%;
+            border-radius: 10px;
+        }
+        .left-div {
+            width: 30%;
+            padding: 20px;
+            margin: 20px;
+            float: left;
+            background-color: #fff;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        .article {
+            background-color: white;
+            margin: 15px;
+            padding: 15px;
+            width: 30%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .article img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .article h2 {
+            font-size: 20px;
+            margin-top: 15px;
+        }
+        .article p {
+            font-size: 16px;
+            color: #555;
+        }
+        .categories {
+            text-align: center;
+            float: right;
+            margin-top: 20px;
+        }
+        .categories select {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .author-bio {
+            background-color: #f9f9f9;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+        .comment-section {
+            background-color: #fff;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .comment-section h3 {
+            margin-top: 0;
+        }
+        .comment-section textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+            background-color: #ac549846;
+        }
+        .comment-section button {
+            padding: 10px 15px;
+            background-color: #1b0102;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>WELCOME TO EDUCATIONAL BLOG by Anshika</h1>
+</header>
+
+<div class="search-bar">
+    <form action="https://www.google.com/search" method="GET">
+        <input type="text" name="q" id="search" placeholder="Search here...">
+        <button type="submit">Search</button>
+    </form>
+
+<div class="gif-container">
+    <img src="gif.gif" alt="Education GIF">
+</div>
+
+<div class="left-div" style="background-color: #320b0b; color: #e9b4b4;border: 5px solid rgb(4, 1, 1);">
+    <h1 style="border: #320b0b; color: #aa0505;">AIM </h1>
+    <img src="aim.jpg" alt="AIM Image" style="width: 100%; height: auto; border-radius: 8px;">
+
+    <p> <hr><br><hr>Welcome to our educational blog! Here you'll find 
+        updates of blogs ,thumbnails,popular blogs and also a self written 
+        blog by me(which is just above the comment section).<br>
+        Our goal is to build a vibrant learning by providing accurate 
+        information.</p>
+    <p><br>blog aims to provide readers with insightful and 
+        engaging content that enhances their understanding 
+        of the world around them. Whether you're a student 
+        looking for additional resources, a professional 
+        seeking to expand your knowledge, or simply 
+        someone with a curious mind, you'll find something 
+        of interest here. We believe in the power of education 
+        to transform lives and are committed to making learning 
+        accessible and enjoyable for everyone. Dive in and 
+        explore the wealth of information we have to offer!<br>
+    comment section is just for layout as it is my first webpage 
+hope you will like it</p><br><hr><br><hr>
+        
+       
+</div>
+
+<div class="content" style="border: 5px solid rgba(55, 16, 16, 0.668); background-color: #501a0366;">
+    <div class="article" style="border: 5px solid maroon;">
+        
+        <h2 style="text-align: center;color: #320b0b; background-color: #e9b4b4;"> THUMBNAILS</h2>
+        <h3 style="text-align: center;">Thumbnails provide a quick visual preview of content, 
+            enhance user experience, improve navigation, and 
+            reduce loading times by using smaller, optimized 
+            images instead of full-sized versions.</h3><hr>
+            <h3>To check education based Thumbnails</h3>
+        <p><a href="thumbnail.html">click here </a></p>
+    </div>
+    <div class="article" style="border: 5px solid rgb(48, 79, 3);">
+        <h2 style="color: #1b3d61; background-color: #28a74677;">UPDATES</h2>
+        <h3>Hey everyone! Keeping our blog updated is super 
+            important. It makes sure all the info is fresh 
+            and correct, helps more people find us on search 
+            engines, and shows we care about providing you 
+            with the best content. Regular updates keep you 
+            engaged and coming back for more exciting reads.</h3><hr>
+            <h3>FOR MORE UPDATES</h3>
+            <p><a href="https://blog.google/products/news/">click here</a> <!DOCTYPE html>
+            <html>
+                <head>
+                    <meta charset="utf-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                </head>
+                <body>
+                    <script src="" async defer></script>
+                </body>
+            </html></a></p>
+
+    </div>
+    <div class="article" style="border: 5px solid rgb(74, 2, 77);">
+        <h2 style="color: #36032a; background-color: #9a28a75c;">POPULAR BLOGS</h2>
+        <h3>Blogs are popular if many people visit, comment, 
+            and share them. They rank high on Google, offer 
+            useful content, are user-friendly, regularly 
+            updated, and have many links from other sites.</h3><hr>
+            <h3>TO CHECK TOP RATED BLOGS CLICK THE LINK GIVEN BELOW</h3>
+        <p><a href="https://detailed.com/education-blogs/">click here</a></p>
+    </div>
+</div>
+
+<div class="author-bio">
+    <h3>AUTHOR:ANSHIKA </h3>
+    <p style="border:2px dotted #4b1f13; background-color: #36032a33;">Hi, I'm Anshika, a first-year college student who loves exploring new hobbies. Among my many interests, blog writing is something I truly enjoy.so,here is my first blog on this platform i hope you gonna like it.<a href="anshikablog.html">click here  <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title></title>
+            <meta name="description" content="">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="">
+        </head>
+        <body>
+            <script src="" async defer></script>
+        </body>
+    </html></a></p>
+</div>
+
+<div class="comment-section">
+    <h3>Leave a Comment:</h3>
+    <textarea placeholder="Write your comment here..."></textarea>
+    <button>Submit Comment</button>
+</div>
+
+</body>
+</html>
